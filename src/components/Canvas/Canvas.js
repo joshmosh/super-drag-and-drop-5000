@@ -94,7 +94,10 @@ export default class Canvas {
   }
 
   mouseUp() {
-    if (this.selectedElement) {
+    this.canvas.removeEventListener("mousemove", this.mouseMove.bind(this))
+    this.canvas.removeEventListener("mouseup", this.mouseUp.bind(this))
+
+      if (this.selectedElement) {
       this.selectedElement.isDragging = false
     }
 
