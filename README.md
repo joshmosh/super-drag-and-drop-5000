@@ -18,7 +18,7 @@ This applcation uses NodeJS to bundle front-end assets. To run this application 
 
 ### Installing Yarn
 
-Once NodeJS is installed you'll want to installed [Yarn Package Manger](https://yarnpkg.com). This application uses Yarn Package Manger to manage it's dependencies.
+Once NodeJS is installed you'll want to install [Yarn Package Manger](https://yarnpkg.com). This application uses Yarn Package Manger to manage it's dependencies.
 
 Head over to the [Yarn installation page](https://yarnpkg.com/getting-started/install) for more instructions on setting up Yarn.
 
